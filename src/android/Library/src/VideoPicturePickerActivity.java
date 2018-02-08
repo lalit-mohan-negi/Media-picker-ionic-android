@@ -75,7 +75,7 @@ public class VideoPicturePickerActivity extends Activity {
 
         Is_multiSelect = true;
         //limit_Select = 5;
-        limit_Select = getIntent().getIntExtra("limit_Select", 5);
+        limit_Select = getIntent().getIntExtra("limit_Select", 1);
         Is_multiSelect = getIntent().getBooleanExtra("Is_multiSelect", false);
         picture_selector = getIntent().getBooleanExtra("picture_selector", false);
         video_selector = getIntent().getBooleanExtra("video_selector", false);
