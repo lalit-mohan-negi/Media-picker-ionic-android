@@ -25,7 +25,7 @@ public class VideoPicturePreviewPickerV2 extends CordovaPlugin {
     boolean video_selector = false;
     boolean display_video_time = false;
     boolean display_preview = false;
-    int limit_Select = 5;
+    int limit_Select = 1;
 
 
     public boolean execute(String action, final JSONArray args, final CallbackContext callbackContext) throws JSONException {
