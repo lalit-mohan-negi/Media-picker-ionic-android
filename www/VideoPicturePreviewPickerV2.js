@@ -14,8 +14,8 @@ VideoPicturePreviewPickerV2.prototype.openPicker = function (success, fail, opti
 			video_selector: options.video_selector ? options.video_selector : true,
 			display_video_time: options.display_video_time ? options.display_video_time : true,
 			display_preview: options.display_preview ? options.display_preview : true,
-			limit_Select: options.limit_Select ? options.limit_Select : 5,
-			Is_multiSelect: options.Is_multiSelect ? options.Is_multiSelect : true
+			limit_Select: options.limit_Select ? options.limit_Select : 1,
+			Is_multiSelect: options.Is_multiSelect ? options.Is_multiSelect : false
 		};
 
 	return cordova.exec(success, fail, "VideoPicturePreviewPickerV2", "openPicker", [params]);
